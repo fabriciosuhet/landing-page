@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Poppins:ital,wght@1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+}
+
+header {
+    background-color: #1F2937;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.cabecalho-imagem {
+    height: 100px;
+}
+
+.menu-cabecalho {
+    display: flex;
+    gap: 32px;
+}
+
+.menu-cabecalho-item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 400;
+}
+
+.conteudo-principal {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-left: 16px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Outfit', sans-serif;
+    font-size: 48px;
+    color: #E5E7EB;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #E5E7EB;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #3882F6;
+    width: 180px;
+    height: 45px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #E5E7EB;
+}
+
+.conteudo-principal-escrito-imagem {
+    height: 300px;
+    padding: 16px;
+}
+
+.conteudo-securando-titulo {
+    display: flex;
+    padding: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    justify-content: center;
+}
+
+.conteudo-secundario-foto {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: center;
+    gap: 24px;
+}
+
+.conteudo-secundario-foto-1, .conteudo-secundario-foto-2, .conteudo-secundario-foto-3, .conteudo-secundario-foto-4 {
+    height: 200px;
+    width: 280px;
+}
+
+.frase-marcante {
+    background-color: #E5E7EB;
+    margin-top: 48px;
+    padding: 56px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    justify-content: center;
+
+}
+
+.frase-marcante-paragrafo {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+}
+
+
+.rodape {
+    background-color: #1F2937;
+    padding: 36px;
+}
+
+.rodape-mensagem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
